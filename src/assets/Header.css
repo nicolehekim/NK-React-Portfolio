@@ -1,0 +1,11 @@
+* {
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.Header {
+    text-shadow: 10px;
+}
+
+.navBar {
+    background-color: white;
+}
