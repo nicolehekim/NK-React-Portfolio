@@ -1,5 +1,6 @@
 import React from 'react';
-import pastProjects from './pastProjects'
+import pastProjects from './pastProjects';
+import "bootstrap/dist/css/bootstrap.min.css";
 import '../assets/Project.css'
 
 
@@ -29,12 +30,12 @@ function Project() {
             },
           ].map((project, index) => (
             <div className='col-12 col-md-6 col-lg-4' key={index}>
-              <pastProjects 
+              <pastProjects
                 title={project.title}
                 description={project.description}
                 deployedLink={project.deployedLink}
                 githubLink={project.githubLink}
-              ></pastProjects>
+                />
             </div>
           ))}
         </div>

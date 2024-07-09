@@ -1,5 +1,5 @@
 import React from 'react'
-import { Card, ListGroup } from 'react-bootstrap'
+import { Card } from 'react-bootstrap'
 
 
 function pastProjects(props) {
@@ -18,4 +18,4 @@ function pastProjects(props) {
     )
 };
 
-export default pastProjects
+export default pastProjects;
