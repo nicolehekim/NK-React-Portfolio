@@ -60,7 +60,7 @@ function Contact() {
             <Container fluid>
                 <Row>
                     <Col lg={8}>
-                        <h3 className='justify-content-center text-center text-light mt-3'>Contact:</h3>
+                        <h3 className='text-light mt-3'>Contact:</h3>
                         <Form>
                             <Form.Group>
                                 <Form.Label>Name:</Form.Label>
@@ -74,7 +74,7 @@ function Contact() {
                                     placeholder='Enter Name'
                                 />
                             </Form.Group>
-                            <Form.Group>
+                            <Form.Group className='mt-3'>
                                 <Form.Label htmlFor='email'>Email:</Form.Label>
                                 <Form.Control
                                     type='email'
@@ -86,7 +86,7 @@ function Contact() {
                                     required
                                 />
                             </Form.Group>
-                            <Form.Group>
+                            <Form.Group className='mt-3'>
                                 <Form.Label htmlFor='message'>Message:</Form.Label>
                                 <Form.Control
                                     as='textarea'
@@ -100,7 +100,7 @@ function Contact() {
                                 />
                             </Form.Group>
 
-                            <Button type='submit'>Send</Button>
+                            <Button type='submit' className='mt-3'>Send</Button>
                         </Form>
                     </Col>
                 </Row>

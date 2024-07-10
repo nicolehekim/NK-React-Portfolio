@@ -1,16 +1,17 @@
 import React from 'react';
 import { Container, Row, Col, Card, Image } from 'react-bootstrap';
+import profile from '../assets/images/profile.jpg'
 import '../assets/About.css';
 
 function About() {
   return (
     <section className='About mt-3'>
-      <h3 className='justify-content-center text-center mt-6 header'>About Me</h3>
+      <h3 className='justify-content-center text-center text-light mt-6 header'>About Me</h3>
       <Container>
         <Row>
           <Col xs={12} md={4} className='mt-2'>
             <Card.Body>
-              <Card.Title>Hello</Card.Title>
+              <Image src={profile} fluid/>
             </Card.Body>
           </Col>
 
@@ -25,7 +26,7 @@ function About() {
                 <Card.Header>Introduction</Card.Header>
                 <Card.Body className='cardBody'>
                   <Card.Text className='cardBody'>
-                    Welcome to my Portfolio! On this site, you will able to see my projects I have accomplished with my team members at UC Berkeley.
+                    Welcome to my Portfolio! On this site, you will able to see my projects I have accomplished independently and with my team members at UC Berkeley.
                     Through this Full Stack Development Program, I have learned many skills that I was able to apply and create a tangible product through small ideas.
 
                     <br></br>

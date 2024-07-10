@@ -1,11 +1,14 @@
 * {
-    font-family: 'Playfair Display', sans-serif;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
 .Header {
     text-shadow: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 72px;
+    color: lightgray
 }
 
 .navBar {
-    background-color: white;
+    background-color: rgba(36, 36, 36, 0);
 }
