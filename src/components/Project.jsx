@@ -6,6 +6,7 @@ import MVC from '../assets/images/mvc.png';
 import Scheduler from '../assets/images/scheduler.png';
 import Quiz from '../assets/images/quiz.png';
 import Password from '../assets/images/password.png';
+import ecoffee from '../assets/images/e-coffee.png';
 import "bootstrap/dist/css/bootstrap.min.css";
 import '../assets/Project.css'
 
@@ -16,6 +17,13 @@ function Project() {
       <div className='container'>
         <div className='row'>
           {[
+            {
+              title: 'e-coffee',
+              image: ecoffee,
+              description: "E-Commerce website that allows users to signup/signin and add/checkout products from cart.",
+              deployedLink: 'https://e-coffee-7d6cb3a5dc4c.herokuapp.com/',
+              githubLink: 'https://github.com/lelisiario/E-Coffee?tab=readme-ov-file',
+            },
             {
               title: 'Catzzeria',
               image: Catzzeria,
@@ -50,13 +58,6 @@ function Project() {
               description: "Day to day scheduler using Dayjs with color separation",
               deployedLink: 'https://nicolehekim.github.io/using-dayjs-for-scheduling/',
               githubLink: 'https://github.com/nicolehekim/using-dayjs-for-scheduling',
-            },
-            {
-              title: 'Random Password Generator',
-              image: Password,
-              description: "Random password generator with customizable prompts",
-              deployedLink: 'https://nicolehekim.github.io/automatic-password-generator/',
-              githubLink: 'https://github.com/nicolehekim/automatic-password-generator',
             },
           ].map((project, index) => (
             <div className='col-12 col-md-6 col-lg-4' key={index}>
