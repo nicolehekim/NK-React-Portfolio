@@ -1,5 +1,7 @@
 # NK-React-Portfolio
 
+Deployed: https://main--nkreact.netlify.app/ 
+
 ## User Story
 
 ```md
